@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100%;
+}
+/* Register CSS */
+.register-body{
+    background: url("/background-6206622.png");
+}
+.register, .login{
+    width: 500px;
+    padding: 44px 24px;
+    margin: 44px auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background-color: white;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.16);
+}
+.register h2{
+    font-weight: 900;
+}
+.input-div{
+    display: flex;
+    flex-flow: column;
+}
+.input-div label{
+    font-size: 14px;
+    font-weight: 700;
+}
+input{
+    width: 400px;
+    height: 48px;
+    padding: 0 16px;
+    border: hidden;
+    background: #f3f3f3;
+}
+input:focus{
+    outline: solid 2px rgb(17, 0, 92);
+}
+.gender div{
+    width: 400px;
+    height: 48px;
+    padding: 0 16px;
+    background: #f3f3f3;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.gender input{
+    width: 18px;
+}
+.gender p{
+    font-size: 14px;
+    font-weight: 700;
+}
+.color.input-div{
+    width: 400px;
+    display: flex;
+    justify-content: left;
+}
+.color input{
+    /* padding-right: 80%; */
+    width: 100px;
+    
+}
+.submit-btn{
+    text-align: center;
+    color: white;
+    background: rgb(17, 0, 92);
+    transition: all ease-out 0.3s;
+}
+.submit-btn:hover{
+    background: rgb(29, 0, 158);
+}
+
+/* Success */
+.success{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.success h1{
+    text-align: center;
+    color: rgb(29, 0, 158);
+}
